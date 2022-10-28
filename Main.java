@@ -9,13 +9,13 @@ public abstract class Main {
 
         int length;
 
-        System.out.println("Введите размер массива");
+        System.out.println("Введіть розмір масиву");
         length=scanner.nextInt();
 
         int [] array = new int[length]; //ініціалізація масиву з довжиною length
 
         for (int i = 0; i < array.length; i++) { //вводити елемент доки масив не закінчиться
-            System.out.print("Введите " + i + " -ое число ");
+            System.out.print("Введіть " + i + " число ");
             array[i] = scanner.nextInt();
         }
 
